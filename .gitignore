@@ -1,0 +1,81 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ========================
+# Virtual Environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+# Data Files (often large / sensitive)
+# ========================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.db
+data/
+
+# ========================
+# Trained Models & Outputs
+# ========================
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.pt
+*.pth
+*.onnx
+models/
+outputs/
+results/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS Junk
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Distribution / Build
+# ========================
+dist/
+build/
+*.egg-info/
