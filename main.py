@@ -1,4 +1,5 @@
 #import the neccessary libraries
+from datetime import timedelta
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,3 +15,8 @@ from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
+
+titanic = sns.load_dataset('titanic')
+titanic.head()
+
+titanic.count()
